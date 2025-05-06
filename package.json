@@ -1,0 +1,32 @@
+{
+  "name": "quizz.ai",
+  "version": "1.0.0",
+  "description": "📚 quizz.ai – AI-Powered Quiz Generator quizz.ai is a full-stack quiz application that dynamically generates unique questions using AI and tracks user sessions without requiring a login.",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josechezuria/Quizz.AI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josechezuria/Quizz.AI/issues"
+  },
+  "homepage": "https://github.com/josechezuria/Quizz.AI#readme",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "pg": "^8.15.6",
+    "sass": "^1.87.0"
+  }
+}
