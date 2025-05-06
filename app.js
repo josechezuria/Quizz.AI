@@ -19,7 +19,8 @@ app.get("/", (req, res) => {
     res.sendFile("index.html", { root: "views" });
   });
 
-// Routes (Quiz)  
+// Routes (Quiz)
+  
 app.get("/quiz", (req, res) => {
     res.sendFile("quiz.html", { root: "views" });
 });
